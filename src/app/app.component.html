@@ -1,0 +1,9 @@
+<div class="container">
+  <h1 class="title"><font face = 'trebuchet ms'>{{ title }}</font></h1>
+  <div class="file-input-container">
+    <label for="fileInput" class="file-input-label"><font face = 'trebuchet ms'>
+      Choose CSV File</font>
+    </label>
+    <input type="file" id="fileInput" class="file-input" (change)="onFileSelected($event)" accept=".csv">
+  </div>
+</div>
